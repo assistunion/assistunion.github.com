@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic,latin);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic,latin);
+
+body {
+  font-size: 13pt;
+  font-family: 'PT Serif', serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  color: #198497;
+}
+
+a:hover {
+  color: #e57327;
+}
+
+#page {
+  position: relative;
+  margin: 20px auto 50px auto;
+  padding-top: 220px;
+  width: 600px;
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#header {
+  position: absolute;
+  top: 50px;
+  left: 220px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 42pt;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  font-weight: bold;
+}
+
+#content p {
+  line-height: 1.5em;
+}
+
+#content ul.narrow {
+  list-style: none;
+  margin: 0;
+  padding: 0 40px;
+  width: 65%;
+}
+
+#content ul.narrow li {
+  margin: 0.8em 0;
+}
+
+.smaller {
+  font-size: 85%;
+}
