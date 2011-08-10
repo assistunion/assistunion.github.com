@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic,latin);
-@import url(http://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic,latin);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=cyrillic,latin);
 
 body {
   font-size: 13pt;
@@ -43,13 +43,14 @@ a:hover {
 h1 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 42pt;
   text-shadow: 1px 1px 0 #fff;
 }
 
 h2 {
   font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
 
 #subtitle {
